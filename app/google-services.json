@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306041241931",
+    "project_id": "tourandtravel-f49d3",
+    "storage_bucket": "tourandtravel-f49d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306041241931:android:85155f56f6e8af3da1a8ce",
+        "android_client_info": {
+          "package_name": "com.helpinghands.toursandtravels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306041241931-me7l257mkpbmm8ul9s4ubrie0gm7qpit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUn8_Xt9xX98xs63_o6YUmKqTHCfFgY7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306041241931-me7l257mkpbmm8ul9s4ubrie0gm7qpit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

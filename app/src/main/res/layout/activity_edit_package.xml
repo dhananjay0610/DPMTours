@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".EditPackage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#C13C3C"
+                android:text="Edit Package"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/textview_shape2"
+                    android:padding="5dp"
+                    android:text="Name :"
+                    android:textColor="#000"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/editText_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Name"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/textview_shape2"
+                    android:padding="5dp"
+                    android:text="Price"
+                    android:textColor="#000"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/editText_Price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Price"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/textview_shape2"
+                    android:padding="5dp"
+                    android:text="Location"
+                    android:textColor="#000"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/editText_Location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Location"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/textview_shape2"
+                    android:padding="5dp"
+                    android:text="Duration"
+                    android:textColor="#000"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/editText_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Duration"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/textview_shape2"
+                    android:padding="5dp"
+                    android:text="Highlights"
+                    android:textColor="#000"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/editText_Highlight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Highlights"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/textview_shape2"
+                    android:padding="5dp"
+                    android:text="@string/most_famous_place"
+                    android:textColor="#000"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/editText_Famous"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_shape"
+                    android:hint="@string/most_famous_place"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/textview_shape2"
+                    android:padding="5dp"
+                    android:text="Description"
+                    android:textColor="#000"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Description"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/edit_image_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/card_bg"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Edit Image"
+                    android:textColor="#3700B3"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/add_Daily_Eternary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/card_bg"
+                    android:text="Add list"
+                    android:textColor="#3700B3"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/edit_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/btn_bg"
+                    android:padding="3dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Save"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

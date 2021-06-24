@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DPM Tours</string>
+    <string name="submit">Submit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="ais_logo">DPM_Logo</string>
+    <string name="dpm_tours">DPM Tours</string>
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+    <string name="duration">Duration</string>
+    <string name="most_famous_place">Most Famous Place</string>
+    <string name="clear">clear</string>
+    <string name="user_name">User Name</string>
+    <string name="description">Description</string>
+    <string name="user_email">User Email</string>
+
+</resources>
